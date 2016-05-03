@@ -183,6 +183,7 @@ stamps/stamp-install-bash: before-build stamps/stamp-build-bash
 	dh_installdirs -p$(p) \
 		bin \
 		etc/skel \
+		root \
 		usr/share/doc/$(p)
 	dh_installdirs -p$(p_doc) \
 		usr/share/doc/$(p)
@@ -216,6 +217,7 @@ endif
 	: # skeleton files
 	$(ID) debian/etc.bash.bashrc $(d)/etc/bash.bashrc
 	$(ID) debian/skel.bashrc $(d)/etc/skel/.bashrc
+	$(ID) debian/skel.bashrc $(d)/root/.bashrc
 	$(ID) debian/skel.profile $(d)/etc/skel/.profile
 	$(ID) debian/skel.bash_logout $(d)/etc/skel/.bash_logout
 
