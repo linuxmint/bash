@@ -1,3 +1,11 @@
+bash (4.3+linuxmint1) sarah; urgency=medium
+
+  * Added support for mint-fortune
+  * Updated prompt style
+  * Added support for root prompts
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 03 May 2016 15:32:37 +0100
+
 bash (4.3-14ubuntu1) wily; urgency=medium
 
   * Merge with Debian; remaining changes:
