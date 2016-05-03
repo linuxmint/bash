@@ -144,17 +144,6 @@ stamps/stamp-build-bash-doc:
 
 check: stamps/stamp-check
 stamps/stamp-check: bash-build
-	@echo BEGIN test
-ifeq ($(DEB_BUILD_GNU_TYPE),$(DEB_HOST_GNU_TYPE))
-  ifeq (,$(findstring nocheck, $(DEB_BUILD_OPTIONS)))
-	-sh debian/locale-gen
-	LOCPATH=$(CURDIR)/locales \
-		time $(MAKE) -C build-bash test 2>&1 | tee build-bash/test-protocol
-  endif
-else
-	@echo Suppress 'make' test, because this is cross build
-endif
-	@echo END test
 	touch stamps/stamp-check
 
 # ---------------------------------------------------------------------------
