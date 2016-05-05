@@ -1,3 +1,9 @@
+bash (4.3+linuxmint2) sarah; urgency=medium
+
+  * Don't show sudo hint
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 05 May 2016 09:42:07 +0100
+
 bash (4.3+linuxmint1) sarah; urgency=medium
 
   * Added support for mint-fortune
