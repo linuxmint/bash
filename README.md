@@ -1,7 +1,6 @@
 Notes:
 
-The package doesn't build in an i386 chroot.
+Chroot environments need /dev/ to build this package.
 
-It fails to produce bashref.html.
+debian/rules specifically tests for the presence of /dev/stdin.
 
-It's probably because of a missing build-dep. This wasn't investigated since it only affects an "all" package.
