@@ -1,3 +1,9 @@
+bash (4.3+linuxmint4) serena; urgency=medium
+
+  * Rebase on version 4.3-14ubuntu1.1
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Nov 2016 15:38:25 +0000
+
 bash (4.3+linuxmint3) sarah; urgency=medium
 
   * Use colors when $TERM = "XTERM" (like in mate-terminal)
