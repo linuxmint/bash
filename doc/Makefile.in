@@ -76,7 +76,7 @@ MAN2HTML    = ${BUILD_DIR}/support/man2html
 HTMLPOST    = ${srcdir}/htmlpost.sh
 INFOPOST    = ${srcdir}/infopost.sh
 QUIETPS	    = #set this to -q to shut up dvips
-PAPERSIZE   = letter	# change to a4 for A4-size paper
+PAPERSIZE   = letter
 PSDPI       = 600	# could be 300 if you like
 DVIPS	    = dvips -D ${PSDPI} $(QUIETPS) -t ${PAPERSIZE} -o $@	# tricky
 
