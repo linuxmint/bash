@@ -1,3 +1,11 @@
+bash (4.3+linuxmint5) sonya; urgency=medium
+
+  * Fix build
+  * Update README.md
+  * Rebase on version 4.3-14ubuntu1.2
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 26 May 2017 13:20:07 +0100
+
 bash (4.3+linuxmint4) serena; urgency=medium
 
   * Rebase on version 4.3-14ubuntu1.1
